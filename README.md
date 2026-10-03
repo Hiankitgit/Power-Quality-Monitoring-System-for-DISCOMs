@@ -26,11 +26,20 @@ Designed entirely in **KiCad**, the board layout was heavily optimized for DIY i
 ![Schematic Preview](docs/schematic_preview.png)
 ![PCB 2D Layout](docs/pcb_layout.png)
 
-## 💻 Firmware Roadmap (In Progress)
-The hardware architecture is fixed and finalized. Current development focuses on embedded signal processing and algorithmic fine-tuning:
-*   [ ] Calibrate ADC sampling routines for the ZMPT101B.
-*   [ ] Develop and fine-tune algorithms to accurately isolate and classify **4 distinct types of power quality faults**.
-*   [ ] Structure RS-485 data packets for reliable transmission to central DISCOM operators.
+# 💻 Firmware: Power Quality Monitoring Node
+
+⚠️ **Status: Work In Progress (Fine-Tuning Phase)**
+
+This directory contains the source code for the Arduino Uno and STM32 microcontrollers. 
+
+### Current Development Focus
+The baseline hardware communication is established, and we are actively calibrating the embedded signal processing algorithms. 
+Current tasks include:
+* Fine-tuning the ZMPT101B analog-to-digital (ADC) sampling windows.
+* Implementing isolation and classification logic for 4 distinct power fault types.
+* Formatting the RS-485 serial packet structure for reliable data transmission to DISCOMs.
+
+Code will be updated regularly as the fault classification algorithms are finalized.
 
 ## 👥 Team & Credits
 This system is being developed as an undergraduate academic group project by ECE Group 7 (2023–2027) under the supervision of Dr. Prachi Choudhary[cite: 8].
