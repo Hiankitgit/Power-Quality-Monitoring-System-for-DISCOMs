@@ -1,0 +1,25 @@
+# KiCad Temporary & Backup Files
+*.kicad_prl
+*.bak
+*-bak
+_autosave-*
+*.tmp
+fp-info-cache
+
+# Arduino Build Files
+build/
+*.elf
+*.hex
+*.bin
+
+# STM32 Compiled Object Files (STM32CubeIDE / Keil / GCC)
+Debug/
+Release/
+*.o
+*.d
+*.map
+*.su
+
+# OS System Files
+.DS_Store
+Thumbs.db
