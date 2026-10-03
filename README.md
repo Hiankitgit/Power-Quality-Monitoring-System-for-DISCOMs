@@ -21,7 +21,7 @@ Designed entirely in **KiCad**, the board layout was heavily optimized for DIY i
 *   **Fabrication Method:** Specifically routed to support the **toner transfer etching** method on a blank copper clad board. A 1:1 scale mirrored PDF and standard Gerber `.zip` are provided in the `/fabrication` directory.
 
 ## 🖼️ Board Previews
-*(Upload your KiCad screenshots to the docs folder and they will appear here)*
+
 
 ![Schematic Preview](docs/schematic_preview.png)
 ![PCB 2D Layout](docs/pcb_layout.png)
